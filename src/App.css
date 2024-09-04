@@ -1,0 +1,17 @@
+.App {
+    background: "white";
+    background-size: cover;
+    min-height: 98vh;
+    min-width: 98vw;
+  }
+  .App>img{
+    mix-blend-mode: color-dodge;
+    filter: brightness(100%) saturate(1) contrast(1);
+  }
+  
+  .App::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+  }
+
+  

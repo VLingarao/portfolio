@@ -1,0 +1,148 @@
+.project-div-main {
+     padding: 50px;
+     display: flex;
+     justify-content: center;
+ }
+ .project-scend-div-container {
+     width: 85%;
+     display: flex;
+ }
+ .project-pics-div {
+     width: 35%;
+     animation: aboutSlider 2s ease forwards;
+ }
+ 
+ @keyframes aboutSlider {
+     0% {
+         transform: translateX(-100px);
+         opacity: 0;
+     }
+     100% {
+         transform: translateY(0px);
+         opacity: 1;
+     }
+ }
+ 
+ .project-pics-div>img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .project-card-text-container {
+     width: 70%;
+     padding: 25px 25px 25px 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .project-card-text-container>h1 {
+     font-family: 'Poppins', sans-serif;
+     color: darkblue;
+     font-weight: 700;
+     font-weight: lighter;
+     margin: 0px 0px 2% 0px;
+     font-size: 40px;
+ }
+ .project-div-span {
+     color: #f8d330;
+ }
+ .carousel-div {
+     width: 100%;
+     background: white;
+     padding: 20px;
+     box-sizing: border-box;
+     border-radius: 20px;
+     box-shadow: 5px 5px 20px rgb(195, 200, 161);
+ }
+ .carousel-img-div {
+     width: 100%;
+     height: 300px; /* Fixed height */
+     overflow: hidden; /* Hide overflow to keep aspect ratio */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 12px;
+ }
+ .carousel-img-div>img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     padding: 2px;
+ }
+ .carousels-data-continer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+ }
+ .carousels-data-continer>h3 {
+     margin: 10px 0 0 0;
+     color: darkblue;
+ }
+ .carousels-data-continer>div {
+     display: flex;
+     align-items: flex-start;
+     gap: 300px;
+ }
+ .carousels-button-01{
+     width: 90px;
+     height: 35px;
+     background: #f8d330;
+     color: white;
+     border: none;
+     border-radius: 10px;
+ }
+ .carousels-button-01:hover{
+    box-shadow: 5px 5px 20px rgb(207, 227, 75);
+ }
+ .carousels-button-02{
+     width: 90px;
+     height: 35px;
+     background: #f8d330;
+     color: white;
+     border: none;
+     border-radius: 10px;
+ }
+ .carousels-button-02:hover{
+    box-shadow: 5px 5px 20px rgb(186, 214, 3);
+ }
+ .project-card-text-container>p {
+     font-family: 'Montserrat', sans-serif;
+     color: darkblue;
+     line-height: 28px;
+ }
+ @media screen and (min-width:320px) and (max-width:576px) {
+     .project-div-main {
+         padding: 15px;
+     }
+     .project-scend-div-container {
+         flex-direction: column;
+         width: 100%;
+     }
+     .project-card-text-container {
+         padding: 0px;
+         width: 100%;
+     }
+     .project-pics-div {
+         width: 100%;
+     }
+     .project-card-text-container>p {
+         font-size: 13px;
+         font-style: italic;
+         line-height: 26px;
+     }
+     .project-card-text-container>h1 {
+         font-size: 30px;
+     }
+     .carousels-data-continer>div {
+          gap: 10px;
+     }
+     .carousel-img-div>img {
+        width: 100;
+        height: 100%;
+        object-fit: fill;
+        padding: 1px;
+     }
+ }
+ 

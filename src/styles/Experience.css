@@ -1,0 +1,119 @@
+.exp-div-container{
+    padding: 50px 50px 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+.exp-secnd-div{
+    width: 80%;
+    height: fit-content;
+}
+.exp-head-text-div{
+    width: 30%;
+}
+.exp-head-text-div>h1{
+    font-family: 'Poppins', sans-serif;
+    color: darkblue;
+    font-size: 40px;
+}
+.exp-head-text-div>h1>span{
+    color: #f8d330;
+}
+.exp-description-div{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-banner-div{
+    width:48%;
+    height: fit-content;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+.exp-content-div{
+    box-shadow: 5px 5px 10px rgb(204, 206, 192);
+    padding: 60px 20px 20px 20px;
+    color: #f8d330;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+.exp-content-div>h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+.exp-content-div>h3{
+    font-weight: 100;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+}
+.exp-content-div>ul{
+    color: darkblue;
+    font-weight: 50;
+    line-height: 28px;
+    font-style: italic;
+    font-size: 15px;
+}
+.exp-content-div>ul>li{
+    margin: 0px 0px 0px 20px;
+}
+.exp-company-pic{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 20%;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(186, 186, 186);
+}
+.exp-company-pic>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:320px) and (max-width:576px){
+    .exp-div-container{
+        padding: 10px;
+    }
+    .exp-secnd-div{
+        width: 100%;
+    }
+    .exp-description-div{
+        flex-direction: column;
+    }
+    .exp-banner-div{
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+    .exp-content-div{
+        width: 100%;
+        padding: 45px 10px 10px 10px;
+    }
+    .exp-content-div>h1{
+        font-size: 23px;
+    }
+    .exp-content-div>h3{
+        margin: 5px 0px 5px 0px;
+        font-size: 17px;
+    }
+    .exp-content-div>p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .exp-company-pic{
+        width: 30%;
+        height: 55px;
+    }
+    .exp-head-text-div{
+        width: 100%;
+    }
+    .exp-content-div>ul{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .exp-head-text-div>h1{
+        font-size: 30px;
+    }
+}
+
+
