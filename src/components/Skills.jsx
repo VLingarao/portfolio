@@ -18,8 +18,8 @@ function Skills() {
           <h1><span>Skil</span>ls</h1>
         </div>
         <div className="imgs-main">
-          {skills.map((value) => (
-            <div className="pic-container">
+          {skills.map((value, index) => (
+            <div key={index} className="pic-container">
               <img src={value} />
             </div>
           ))}
